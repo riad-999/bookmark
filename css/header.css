@@ -1,0 +1,157 @@
+.main-header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:.5rem 2rem;
+}
+.main-header__nav
+{
+    position: fixed;
+    top:50%;
+    width:90%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--very-dark-blue);
+    text-align: center;
+    opacity: 0;
+    z-index: -9999;
+    box-shadow: var(--box-shadow);
+    padding:1rem 2rem;
+    border-radius: .5rem;
+    color:white;
+}
+.main-header__list
+{
+    margin-bottom:8rem;
+}
+.main-header__item
+{
+    display: block;
+    padding:1rem 0;
+    border-top:solid var(--grayish-blue) 1px;
+}
+.main-header__link
+{
+    display: block;
+}
+.btn
+{
+    color:white;
+    padding:.8rem 1.5rem;
+    background-color: var(--soft-blue);
+}
+.btn--hamburger
+{
+    background-color: inherit;
+}
+.btn--login
+{
+    background-color: inherit;
+    border:solid var(--grayish-blue) 2px;
+    width:100%;
+}
+.main-header__nav .fab
+{
+    font-size: 1.5rem;
+}
+.main-header__nav .fa-facebook-square
+{
+    margin-right:1rem;
+}
+.nav__close
+{
+    display: block;
+    background-color: inherit;
+    padding-right: 0;
+}
+.nav__header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 0;
+}
+.nav__header h3
+{
+    color:white;
+    margin:0;
+}
+
+
+
+
+/* separat classes */
+.hidden
+{
+    display:none !important;
+}
+.show
+{
+    opacity: 1;
+    z-index: 9999;
+}
+
+@media screen and (min-width:1440px)
+{
+    .main-header__nav
+    {
+        position: static;
+        border-radius: inherit;
+        transform:initial;
+        width:initial;
+        background-color: inherit;
+        text-align: initial;
+        opacity:initial;
+        z-index: auto;
+        box-shadow: initial;
+        padding:0;
+        color:inherit;
+    }
+    .main-header__list
+    {
+        display:flex;
+        margin-bottom:0;
+        align-items: baseline;
+    }
+    .main-header__item
+    {
+        padding:.5rem 1rem;
+        border:none;
+        transition:color .4s;
+    }
+    .main-header__item:hover
+    {
+        color:var(--soft-red);
+    }
+    .btn--login
+    {
+        background-color:var(--soft-red);
+        padding:.8rem 1.5rem;
+        color:white;
+        border-color:var(--soft-red);
+        transition: background-color .4s;
+    }
+    .btn--login:hover
+    {
+        background-color: white;
+        color:var(--soft-red);
+    }
+    .main-header__nav .fab-parent,
+    .nav__close
+    {
+        display:none;
+    }
+    .btn--hamburger
+    {
+        display:none;
+    }
+    .nav__header
+    {
+        display: none;
+    }
+    .btn--login
+    {
+        width:initial;
+    }
+}

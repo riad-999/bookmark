@@ -1,0 +1,14 @@
+document.addEventListener("DOMContentLoaded",initial);
+document.querySelector(".btn--hamburger")
+.addEventListener("click",show_close_nav);
+document.querySelector(".nav__close").
+addEventListener("click",show_close_nav);
+document.querySelectorAll(".features__btn").
+forEach(btn=>
+    {
+        btn.addEventListener("click",Tab.switch_tab);
+    });
+document.querySelector(".qa").
+addEventListener("click",open_close_answer);
+document.querySelector("form").
+addEventListener("submit",form_submit);

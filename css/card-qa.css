@@ -1,0 +1,102 @@
+.cards
+{
+    padding:0 1rem;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+.card
+{
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    margin-top:3rem;
+    padding:2rem 0;
+}
+.card__img
+{
+    margin:0 auto;
+}
+.card__dots
+{
+    margin:2rem 0 2rem;
+    width:100%;
+}
+.card__btn
+{
+    display: block;
+    margin:0 auto;
+    width:calc(100% - 2rem);
+}
+.unvisible
+{
+    visibility: hidden;
+    width: 0;
+    height:0;
+    overflow:hidden;
+}
+.qa__intro
+{
+    text-align: center;
+    margin-bottom: 3rem;
+    max-width:60ch;
+}
+
+.qa
+{
+    width:90%;
+    margin:0 auto;
+    text-align: center;
+}
+.question
+{
+    position: relative;
+    padding:.5rem 0;
+    padding-right:3rem;
+    cursor: pointer;
+}
+.question__arrow-down
+{
+    position: absolute;
+    top:.5rem;
+    right:1rem;
+}
+.qa__wraper
+{
+    text-align: left;
+}
+.qa__wraper--last
+{
+    margin-bottom: 2rem;
+}
+.answer
+{
+    padding:1rem 0;
+}
+@media all and (min-width:1440px)
+{
+    .cards
+    {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card
+    {
+        flex-basis: 20%;
+    }
+    .card:not(.card:last-child)
+    {
+        margin-right:2rem;
+    }
+    .card--two
+    {
+        transform:translateY(2rem);
+    }
+    .card--three
+    {
+        transform:translateY(4rem);
+    }
+    .qa
+    {
+        width:min(50%,700px);
+    }
+}

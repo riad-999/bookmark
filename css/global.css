@@ -1,0 +1,66 @@
+:root
+{
+    --soft-blue:hsl(231, 69%, 60%);
+    --soft-red:hsl(0, 94%, 66%);
+    --grayish-blue:hsl(229, 8%, 60%);
+    --light-grayish-blue:hsl(223, 17%, 92%);
+    --very-dark-blue:hsl(229, 31%, 21%);
+    --box-shadow:0 0 8px 0 rgba(0, 0, 0, 0.4);
+
+    font-size: 18px;
+}
+body
+{
+    font-family: 'Rubik', sans-serif;
+    color:var(--grayish-blue);
+}
+*,
+*::after,
+*::before
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3
+{
+    color:var(--very-dark-blue);
+    font-weight: 300;
+    margin:2rem 0;
+}
+h1
+{
+    font-size: 2.1rem;
+}
+h2
+{
+    font-size: 1.6rem;
+}
+h3
+{
+    font-size: 1.3rem;
+}
+button
+{
+    background-color: inherit;
+    border:none;
+    cursor: pointer;
+    color:inherit;
+    font-size: inherit;
+}
+ul
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    color:inherit;
+}
+img
+{
+    max-width: 100%;
+    display:block;
+}

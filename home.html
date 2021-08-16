@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="view-port" content="width=device-width,initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="./css/global.css" />
+        <link rel="stylesheet" href="./css/header.css" />
+        <link rel="stylesheet" href="./css/others.css" />
+        <link rel="stylesheet" href="./css/card-qa.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1ef1b3e9cf.js" defer crossorigin="anonymous"></script>
+        <script src="./javascript/declaration.js" defer></script>
+        <script src="./javascript/main.js" defer></script>
+        <title>bookmark</title>
+    </head>
+    <body>
+        <header class="main-header">
+            <img src="./images/logo-bookmark.svg" 
+            alt="logo" class="main-header__logo" />
+            <nav class="main-header__nav">
+                <header class="nav__header">
+                    <h3>BOOKMARK</h3>
+                    <button type="button" class="btn nav__close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </header>
+                <ul class="main-header__list">
+                    <li class="main-header__item">
+                        <a href="#" class="main-header__link">FEATURES</a>
+                    </li>
+                    <li class="main-header__item">
+                        <a href="#" class="main-header__link">PRICING</a>
+                    </li>
+                    <li class="main-header__item">
+                        <a href="#" class="main-header__link">CONTACT</a>
+                    </li>
+                    <li class="main-header__item">
+                        <button type="button" class="btn btn--login">LOGIN</button>
+                    </li>
+                </ul>
+                <button type="button" class="fab-parent">
+                    <i class="fab fa-facebook-square"></i>
+                </button>
+                <button type="button" class="fab-parent">
+                    <i class="fab fa-twitter"></i>
+                </button>
+            </nav>
+            <button type="button" class="btn btn--hamburger">
+                <img src="./images/icon-hamburger.svg"
+                 class="header__hamburger" alt="open navigation" />
+            </button>
+        </header>
+        <main class="main-content">
+            <section class="intro">
+                <section class="intro__desc">
+                    <h1>
+                        A Simple BookmarK Manager
+                    </h1>
+                    <p class="intor_desc__parag">
+                        A clean and Simple interface to 
+                        organize your favourite websites,
+                        open a new browser tab and see your sites 
+                        load instantly.try it for free.
+                    </p>
+                    <section class="intro__btns-container">
+                        <button type="button" class="btn">
+                            Get in on CHrome
+                        </button>
+                        <button type="button" class="btn btn--gray">
+                            Get it on Firefox
+                        </button>
+                    </section>
+                </section>
+                <section class="intro__img">
+                    <div class="costum"></div>
+                    <img src="./images/illustration-hero.svg" 
+                    alt="error" />
+                </section>
+            </section>
+            <section class="features">
+                <section class="features__intro">
+                    <h2>
+                        Features
+                    </h2>
+                    <p>
+                        our aim is to make it quick and easy for you to 
+                        access you favourite websites, you bookmarks sync
+                        between you devices so you can access the on the 
+                        go.
+                    </p>
+                </section>
+                <ul class="features__list">
+                    <li class="features__item">
+                        <button type="button" class="features__btn current">
+                            Simgle Bookmargking
+                        </button>
+                    </li>
+                    <li class="features__item">
+                        <button type="button" class="features__btn">
+                            Speedy Searching
+                        </button>
+                    </li>
+                    <li class="features__item">
+                        <button type="button" class="features__btn">
+                            Easy Sharing
+                        </button>
+                    </li>
+                </ul>
+                <section class="features__details">
+                    <section class="feature">
+                        <section class="feature__img-container">
+                            <img class="feature__img" 
+                            src="./images/illustration-features-tab-1.svg" />
+                            <div class="costum costum--left"></div>
+                        </section>
+                        <section class="feature__desc">
+                            <h2>
+                                Bookmark in one click
+                            </h2>
+                            <p>
+                                organize you bookmarks however 
+                                you like.our simple drag-and-drop 
+                                interface gives you complete 
+                                control over how you manage
+                                your favourite sites.
+                            </p>
+                            <button type="button" class="btn btn--space-top">
+                                More Info
+                            </button>
+                        </section>
+                    </section>
+                    <section class="feature hidden">
+                        <section class="feature__img-container">
+                            <img class="feature__img" 
+                            src="./images/illustration-features-tab-2.svg" />
+                            <div class="costum costum--left"></div>
+                        </section>
+                        <section class="feature__desc">
+                            <h2>
+                                Intelligent search
+                            </h2>
+                            <p>
+                                our powerful search feature will help
+                                sites in no time ar all. No need totrawl 
+                                through all of your bookmarks
+                            </p>
+                            <button type="button" class="btn btn--space-top">
+                                More Info
+                            </button>
+                        </section>
+                    </section>
+                    <section class="feature hidden">
+                        <section class="feature__img-container">
+                            <img class="feature__img" 
+                            src="./images/illustration-features-tab-3.svg" />
+                            <div class="costum costum--left"></div>
+                        </section>
+                        <section class="feature__desc">
+                            <h2>
+                                Share you bookmarks
+                            </h2>
+                            <p>
+                                Easily share your bookmarks and 
+                                collections with others. Create a sharesable link 
+                                that yoku can send at the click of a button
+                            </p>
+                            <button type="button" class="btn btn--space-top">
+                                More Info
+                            </button>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section class="browsers">
+                <section class="browsers__intro">
+                    <h2>Download the extension</h2>
+                    <p>we've got more browsers in the pipeline.
+                        Please do let us know if you've got a 
+                        favourite you'd lid us to prioritize.
+                    </p>
+                </section>
+                <section class="cards">
+                    <article class="card">
+                        <img class="card__img"
+                        src="./images/logo-chrome.svg" />
+                        <h2>
+                            Add to Chrome
+                        </h2>
+                        <p>Minimum version 62</p>
+                        <img class="card__dots"
+                        src="./images/bg-dots.svg" />
+                        <button type="button" class="btn card__btn">
+                            Add & Install Extension
+                        </button>
+                    </article>
+                    <article class="card card--two">
+                        <img class="card__img" 
+                        src="./images/logo-firefox.svg" />
+                        <h2>
+                            Add to Firefox
+                        </h2>
+                        <p>Minimum version 55</p>
+                        <img class="card__dots" 
+                        src="./images/bg-dots.svg" />
+                        <button type="button" class="btn card__btn">
+                            Add & Install Extension
+                        </button>
+                    </article>
+                    <article class="card card--three">
+                        <img class="card__img" 
+                        src="./images/logo-opera.svg" />
+                        <h2>
+                            Add to Opera
+                        </h2>
+                        <p>Minimum version 46</p>
+                        <img class="card__dots" 
+                        src="./images/bg-dots.svg" />
+                        <button type="button" class="btn card__btn">
+                            Add & Install Extension
+                        </button>
+                    </article>
+                </section>
+            </section>
+            <section class="qa">
+                <section class="qa__intro">
+                    <h2>
+                        Frequently Asked Questions
+                    </h2>
+                    <p>
+                        Here are some of our FAQs.in you
+                        have any other questions you'd like
+                        answer hiddened please feel free to email us.
+                    </p>
+                </section>
+                <article class="qa__wraper">
+                    <section class="question">
+                        what is Bookmark?
+                        <button type="button" class="question__arrow-down">
+                            <img src="./images/icon-arrow.svg" />
+                        </button>
+                    </section>
+                    <section class="answer hidden">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae vero, alias odit, quaerat rerum veritatis quasi tenetur cumque minima impedit tempora voluptas, labore reprehenderit eaque! Consequuntur quaerat excepturi repudiandae inventore!
+                    </section>
+                </article>
+                <article class="qa__wraper">
+                    <section class="question">
+                        How can i request a new browser?
+                        <button type="button" class="question__arrow-down">
+                            <img src="./images/icon-arrow.svg" />
+                        </button>
+                    </section>
+                    <section class="answer hidden">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eaque expedita explicabo dignissimos, consectetur velit aliquam numquam necessitatibus ex non sit iusto autem doloremque quaerat aperiam dolores. Aliquid iste quos molestiae debitis ab dolorem possimus nostrum impedit ex, ipsum quibusdam error quis placeat natus eum eligendi sed dignissimos quo sunt!
+                    </section>
+                </article>
+                <article class="qa__wraper">
+                    <section class="question">
+                        is there a mobile app?
+                        <button type="button" class="question__arrow-down" >
+                            <img src="./images/icon-arrow.svg" />
+                        </button>
+                    </section>
+                    <section class="answer hidden">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium natus, corporis iure totam doloribus maxime ea. Minus animi dicta, eveniet vel ex illum voluptatum esse iusto ducimus labore hic delectus repudiandae voluptates reprehenderit in dignissimos.
+                    </section>
+                </article>
+                <article class="qa__wraper qa__wraper--last">
+                    <section class="question">
+                        What about onter Chroumium browers?
+                        <button type="button" class="question__arrow-down">
+                            <img src="./images/icon-arrow.svg"/>
+                        </button>
+                    </section>
+                    <section class="answer hidden">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cupiditate illum blanditiis rem perferendis facere amet voluptate voluptas quo odio.
+                    </section>
+                </article>
+                <button type="button" class="btn">
+                    More Info
+                </button>
+            </section>
+        </main>
+        <footer class="home-footer">
+            <section class="footer__top">
+                <div class="small">
+                    35,000+ ALREADY JOINED
+                </div>
+                <h1>
+                    Stay-up-to-date with what we-re doing
+                </h1>
+                <form class="home-footer__form" autocomplete="off">
+                    <input class="home-footer__input" type="email"
+                    placeholder="Eneter your email address" />
+                    <button type="submit" class="btn--footer btn">
+                        Contact Us
+                    </button>
+                </form>
+            </section>
+            <seciton class="footer__bottom">
+                <ul class="footer__bottom__list">
+                    <li class="footer__bottom__item ">
+                        <h2 class="white">BOOKMARK</h2>
+                    </li>
+                    <li class="footer__bottom__item">
+                        <a href="#">FEATURES</a>
+                    </li>
+                    <li class="footer__bottom__item">
+                        <a href="#">PRICING</a>
+                    </li>
+                    <li class="footer__bottom__item">
+                        <a href="#">CONTACT</a>
+                    </li>
+                </ul>
+                <section class="footer__bottom__media">
+                    <a href="#" class="media">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#" class="media">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </section>
+            </seciton>
+        </footer>
+    </body>
+</html>
