@@ -63,10 +63,12 @@
 .qa__wraper
 {
     text-align: left;
+    border-top:solid var(--grayish-blue) 1px;
 }
 .qa__wraper--last
 {
     margin-bottom: 2rem;
+    border-bottom:solid var(--grayish-blue) 1px;
 }
 .answer
 {
